@@ -10,4 +10,4 @@ This repository contains my personal writeups of Capture The Flag (CTF) challeng
 ## Progress
 - Challenges solved : 56
 ## License
-This repository is released under the MIT license.
+This repository is released under the MIT license. See [License](https://github.com/msvignesh-25/picoCTF-Writeups/blob/main/LICENSE) for more details.
