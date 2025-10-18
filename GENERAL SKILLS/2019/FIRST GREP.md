@@ -10,7 +10,7 @@ Can you find the flag in file? This would be really tedious to look through manu
 1. Downloaded the [file](https://jupiter.challenges.picoctf.org/static/315d3325dc668ab7f1af9194f2de7e7a/file).
 2. Read the hint and learnt about grep [here](https://ryanstutorials.net/linuxtutorial/grep.php).
 3. Used the command
-# grep "picoCTF{" file
+- grep "picoCTF{" file
 4. This will show us the flag.
 
 - And there we got the flag!!
