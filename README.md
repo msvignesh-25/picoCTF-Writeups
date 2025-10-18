@@ -12,5 +12,5 @@ This repository contains my personal writeups of Capture The Flag (CTF) challeng
 ## License
 This repository is released under the MIT license. See [License](https://github.com/msvignesh-25/picoCTF-Writeups/blob/main/LICENSE) for more details.
 ## Disclaimer
-These writeups are only for educational and informational purposes. The challenges and solutions documented here are meant to help with understanding cybersecurity and penetration testing concepts.
+The content in this repository is intended solely for educational and informational purposes. The writeups describe methodologies and solutions; plaintext flags are not published. Users are encouraged to attempt challenges independently prior to consulting these notes. The maintainers accept no responsibility for misuse of this material.
 Always follow the rules of the challenge platform and seek consent before conducting tests on real systems.
