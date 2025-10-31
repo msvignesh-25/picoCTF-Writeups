@@ -21,4 +21,6 @@ The solution is discussed here after doing the challenge on picoCTF's brower web
 8. The command is, `<xxd -l 16 file>`. This will show the starting few bytes of the file header. And of-course, it didn't start with FFD8. And the command to check the last few bytes of the file header is, `<xxd -s -2 -l 2 file>`. And of-course, it wasn't FFD9. So I explored how to manipulate the file header bytes on my own.
 9. Found that the command is, `<printf '\xFF\xD8\xFF\xE0' | dd of=file bs=1 seek=0 conv=notrunc>`. And the command to change the last few bytes is, `<printf '\xFF\xD9' >> file>`.
 10. These two commands would change the file bytes, so that file would now become a valid JPEG file. To verify this, I again used the command, `file file` and it returned, file: JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 800x500, components 3.
-11. Now rename the file to .jpg format, so that you can the open the image. Linux  
+11. Now rename the file to .jpg format, so that you can the open the image. The command is `mv file file.jpg`.
+12. Now this is the last step. Linux users need to use the command, xdg-open file.jpg to open the image and the flag will be available.
+13. Users on the browser webshell won't be able to use the command, so an alternate option is to use the command, `sz file.jpg /rz`. The file will be downloaded to the PC and then opening the file will show you the required flag.
