@@ -1,6 +1,6 @@
 # CHALLENGE: First Grep
 
-**DIFFICULTY:** EASY  
+**DIFFICULTY:** MEDIUM  
 
 **LINK:** [FIRST GREP](https://play.picoctf.org/practice/challenge/85?category=5&difficulty=1&originalEvent=1&page=1)
 
